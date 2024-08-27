@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Table Parser Extension",
+  "name": "TTU Course Tracker",
   "version": "1.0",
-  "description": "Parse a specific table element when the URL is accessed.",
+  "description": "Parse a course table element when the URL is accessed and post to backend database.",
   "permissions": [
     "scripting",
     "webNavigation"
