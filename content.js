@@ -74,18 +74,18 @@ observer.observe(tableElement, { childList: true, subtree: true });
       }
 
   else {
-      console.log("Table not found, trying again in 30 seconds...");
-      setTimeout(scrapeData, 15000); // Retry after 30 seconds
+      console.log("Table not found, trying again in 5 seconds...");
+      setTimeout(scrapeData, 5000); // Retry after 5 seconds
   }
 }
 
-// Wait for 45 seconds after the page has loaded before running the scrape function
+// Wait for 15 seconds after the page has loaded before running the scrape function
 window.addEventListener('load', () => {
-  setTimeout(scrapeData, 30000);
+  setTimeout(scrapeData, 15000);
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  setTimeout(scrapeData, 30000);
+  setTimeout(scrapeData, 15000);
 });
 
 //run again after content in the page changes

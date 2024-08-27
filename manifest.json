@@ -16,5 +16,8 @@
       "https://registration.texastech.edu/StudentRegistrationSsb/ssb/classSearch/classSearch"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "icons": {
+    "48": "logo.png"
+  }
 }
