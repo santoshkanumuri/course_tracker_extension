@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Table Parser Extension",
+  "version": "1.0",
+  "description": "Parse a specific table element when the URL is accessed.",
+  "permissions": [
+    "scripting",
+    "webNavigation"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://registration.texastech.edu/StudentRegistrationSsb/ssb/classRegistration/classRegistration",
+      "https://registration.texastech.edu/StudentRegistrationSsb/ssb/classSearch/classSearch"],
+      "js": ["content.js"]
+    }
+  ]
+}
