@@ -1,4 +1,4 @@
-## Course Tracker Browser Extension
+## Course Tracker Browser Extension - CourseSync
 
 ### Project Overview
 A cross-browser compatible web extension designed to provide real-time course availability tracking for educational institutions.
